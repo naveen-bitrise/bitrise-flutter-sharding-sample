@@ -8,3 +8,4 @@ class FeatureF {
     return n * factorial(n - 1);
   }
 }
+// Test with full regex pattern - Wed Feb  4 16:05:20 EST 2026
