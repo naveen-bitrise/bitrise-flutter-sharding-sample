@@ -12,5 +12,9 @@ void main() {
       final featureE = FeatureE();
       expect(featureE.filterEven([1, 2, 3, 4, 5, 6]), [2, 4, 6]);
     });
+
+    test('this test should also fail', () {
+      expect(1 + 1, 3, reason: 'Intentional failure for feature_e to test sharding error handling');
+    });
   });
 }
