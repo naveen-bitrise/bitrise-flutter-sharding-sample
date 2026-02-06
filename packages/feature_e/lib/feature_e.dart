@@ -11,3 +11,4 @@ class FeatureE {
     return numbers.where(_featureD.isEven).toList();
   }
 }
+// Test with regex enabled - Wed Feb  4 16:04:11 EST 2026

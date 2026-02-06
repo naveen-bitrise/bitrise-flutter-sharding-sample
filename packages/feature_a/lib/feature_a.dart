@@ -7,3 +7,4 @@ class FeatureA {
     return a + b;
   }
 }
+// Test Bitrise trigger - Wed Feb  4 15:44:29 EST 2026

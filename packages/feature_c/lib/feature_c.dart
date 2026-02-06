@@ -11,3 +11,4 @@ class FeatureC {
     return _featureA.add(x, y) * 2;
   }
 }
+// Test Bitrise trigger #3 - Wed Feb  4 15:54:00 EST 2026

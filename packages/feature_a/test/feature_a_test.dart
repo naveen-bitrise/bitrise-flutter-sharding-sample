@@ -12,5 +12,9 @@ void main() {
       final featureA = FeatureA();
       expect(featureA.add(2, 3), 5);
     });
+
+    test('this test should fail', () {
+      expect(true, false, reason: 'Intentional failure to test pipeline error handling');
+    });
   });
 }
